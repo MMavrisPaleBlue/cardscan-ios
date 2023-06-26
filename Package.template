@@ -19,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "CardScan",
-            url: "{{url}}",
-            checksum: "{{checksum}}"
+            url: "https://github.com/MMavrisPaleBlue/FileStorage/raw/main/CardScan.xcframework.zip",
+            checksum: "25d2161046bfbf89abf5828ce1ee00317e9f24ba854c64b02ec29b3b049fa320"
         )
     ]
 )
